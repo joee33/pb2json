@@ -1,0 +1,17 @@
+package test.pkg;
+
+//测试消息1
+//测试消息1
+//测试消息1
+//测试消息1
+message Test1{required bool first_field=1;  //adaad
+optional double second_filed=2;optional float	third_field=3;optional int32  forth_field=4;optional uint32 fifth_field= 5;
+}
+
+//测试消息2
+message Test2 {
+    optional int64  sixth_field 	= 1; //第六个字段
+    optional uint64 seventh_field	= 2; //第七个字段
+	optional string eighth_field   	= 3; //第八个字段
+    optional bytes  ninth_field   	= 4; //第九个字段
+}

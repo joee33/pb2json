@@ -3,8 +3,7 @@
 
 import sys
 sys.path.append('../src')
-from pb_parser import FileFsm
-from pb_parser import Message
+from pb_parser import FileFsm, Message
 import json
 
 

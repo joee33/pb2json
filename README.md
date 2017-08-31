@@ -23,10 +23,10 @@ message Test{
 新建一个FileFsm实例:
 
 ```python
-	file_fsm = FileFsm('proto_file.proto')
-	file_fsm.parse()
-	result = file_fsm.message_to_json('Test')
-	print(result)`  
+file_fsm = FileFsm('proto_file.proto')
+file_fsm.parse()
+result = file_fsm.message_to_json('Test')
+print(result)`  
 ```
  结果打印：
  
